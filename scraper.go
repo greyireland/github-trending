@@ -24,11 +24,12 @@ func main() {
 
 		//scrape("swift", filename)
 		//scrape("objective-c", filename)
-		//scrape("go", filename)
-		//scrape("javascript", filename)
+		scrape("go", filename)
+		scrape("javascript", filename)
 		//scrape("ruby", filename)
 		//scrape("rust", filename)
-		//scrape("python", filename)
+		scrape("python", filename)
+		scrape("java", filename)
 
 		gitPull()
 		gitAddAll()
