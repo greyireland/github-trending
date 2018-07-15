@@ -22,13 +22,13 @@ func main() {
 		//create markdown file
 		createMarkDown(dateString, filename)
 
-		scrape("swift", filename)
-		scrape("objective-c", filename)
-		scrape("go", filename)
-		scrape("javascript", filename)
-		scrape("ruby", filename)
-		scrape("rust", filename)
-		scrape("python", filename)
+		//scrape("swift", filename)
+		//scrape("objective-c", filename)
+		//scrape("go", filename)
+		//scrape("javascript", filename)
+		//scrape("ruby", filename)
+		//scrape("rust", filename)
+		//scrape("python", filename)
 
 		gitPull()
 		gitAddAll()
